@@ -13,14 +13,14 @@ const Ocean = () => {
                     />
                 </div>
                 <div className=" max-w-2xl lg:max-w-3xl p-20 border-lime-400 border-l-4">
-                    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white ">
+                    <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white ">
                         Ocean{" "}
-                        <span class="text-blue-600 dark:text-lime-500">
+                        <span className="text-blue-600 dark:text-lime-500">
                             Acidification{" "}
                         </span>
                     </h1>
                     <div className=" w-11/12 h-1 rounded bg-gray-300 mb-3"></div>
-                    <p class="text-md font-normal text-gray-500 lg:text-xl dark:text-gray-300">
+                    <p className="text-md font-normal text-gray-500 lg:text-xl dark:text-gray-300">
                         Ocean acidification, caused by oceans absorbing
                         excessive CO2, poses a threat to marine life,
                         particularly shell-building organisms and coral reefs.

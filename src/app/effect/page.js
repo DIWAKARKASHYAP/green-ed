@@ -9,7 +9,6 @@ export default function Effect() {
   return (
     <div>
       <Forest />
-      {/* <Effect /> */}
       <Ocean />
       <Smoke />
       <Economical />

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Human from "../components/Human";
 import Marine from "../components/marine";
 

@@ -13,15 +13,12 @@ const Biodiversity = () => {
                     />
                 </div>
                 <div className=" max-w-2xl lg:max-w-3xl p-20 border-sky-400 border-l-4">
-                    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white ">
-                     Biodiversity {" "}
-                        <span class="text-red-500">
-                        loss{" "}
-                        </span>
+                    <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white ">
+                        Biodiversity <span className="text-red-500">loss </span>
                         by climate change
                     </h1>
                     <div className=" w-11/12 h-1 rounded bg-gray-300 mb-3"></div>
-                    <p class="text-md font-normal text-gray-500 lg:text-xl dark:text-gray-300">
+                    <p className="text-md font-normal text-gray-500 lg:text-xl dark:text-gray-300">
                         Climate change profoundly impacts biodiversity. Rising
                         temperatures and changing precipitation patterns disrupt
                         ecosystems, causing species to migrate or perish. Ocean

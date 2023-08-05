@@ -14,16 +14,14 @@ const Smoke = () => {
                         />
                     </div>
                     <div className=" max-w-2xl lg:max-w-3xl p-20 border-gray-400 border-l-4 ">
-                        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white ">
+                        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white ">
                             Effect of{" "}
-                            <span class="text-gray-500">
-                                Pollution{" "}
-                            </span>
+                            <span className="text-gray-500">Pollution </span>
                             on climate change
                         </h1>
-                        <div className=' w-11/12 h-1 rounded bg-gray-300 mb-3'></div>
+                        <div className=" w-11/12 h-1 rounded bg-gray-300 mb-3"></div>
 
-                        <p class="text-md font-normal text-gray-500 lg:text-xl dark:text-gray-300">
+                        <p className="text-md font-normal text-gray-500 lg:text-xl dark:text-gray-300">
                             Pollution, especially from greenhouse gases like
                             carbon dioxide and methane, intensifies climate
                             change by trapping heat in our atmosphere. This

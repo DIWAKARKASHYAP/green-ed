@@ -1,9 +1,9 @@
-"use client"
-import React  from "react";
+"use client";
+import React from "react";
 import Link from "next/link";
 
 const NabBar = () => {
-    const [burger, setBurger] = React.useState("hidden")
+    const [burger, setBurger] = React.useState("hidden");
     // let burger = "hidden"
     return (
         <div>
@@ -19,16 +19,18 @@ const NabBar = () => {
                     <button
                         data-collapse-toggle="navbar-default"
                         type="button"
-                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden  focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
+                        className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden  focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
                         aria-controls="navbar-default"
                         aria-expanded="true"
-                        onClick={()=>{
-                            (burger == "hidden" ? setBurger("") : setBurger("hidden") )
+                        onClick={() => {
+                            burger == "hidden"
+                                ? setBurger("")
+                                : setBurger("hidden");
                         }}
                     >
-                        <span class="sr-only">Open main menu</span>
+                        <span className="sr-only">Open main menu</span>
                         <svg
-                            class="w-5 h-5"
+                            className="w-5 h-5"
                             aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
@@ -45,7 +47,7 @@ const NabBar = () => {
                     </button>
 
                     <div
-                        className={`${burger} w-full md:block md:w-auto`} 
+                        className={`${burger} w-full md:block md:w-auto`}
                         id="navbar-dropdown"
                     >
                         <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0  ">
