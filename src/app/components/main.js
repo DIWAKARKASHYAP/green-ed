@@ -33,7 +33,7 @@ const Main = () => {
                         <Image
                             width={400}
                             height={400}
-                            quality={50}
+                            // quality={50}
                             src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Rotating_earth_animated_transparent.gif"
                         />
                     </div>
